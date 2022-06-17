@@ -1,0 +1,51 @@
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component,
+.user__component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user__component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+
+.user_component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+  object-fit: cover;
+}
+.user_component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+.user_component__avatar--sm {
+  width: 60px;
+  height: 60px;
+}
+.user__component__text {
+  margin-left: 20px;
+}
+.user__component__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+.user__component__title--not-bold {
+  font-weight: 400;
+}
+
+.user__component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.user__component__remaining_number {
+  margin-top: 10px;
+}

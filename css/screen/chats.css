@@ -1,0 +1,25 @@
+.chats-screen {
+  padding: 0px var(--horizontal-space);
+}
+.chats__board__link {
+  display: flex;
+  justify-content: space-between;
+}
+#chat_component {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  align-items: end;
+  justify-content: center;
+}
+.chats__remaining_number {
+  color: white;
+  background-color: tomato;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
