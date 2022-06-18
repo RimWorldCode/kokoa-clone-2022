@@ -9,7 +9,7 @@
   margin-bottom: 15px;
 }
 #friends-display-link i {
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--gray);
 }
 #friends-display-link div {
   margin: 0 6px;

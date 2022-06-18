@@ -5,3 +5,8 @@
   display: flex;
   justify-content: space-between;
 }
+.chats__board__link_2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
