@@ -11,13 +11,17 @@
 @import "components/badge.css";
 @import "components/chats.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /* screen */
+
 @import "screen/login-form.css";
 @import "screen/friends.css";
 @import "screen/find.css";
 @import "screen/more.css";
-
+@import "screen/setting.css";
+@import "screen/chat-board.css";
 body {
   color: #2e363e;
+  padding-top: 25px;
 }
