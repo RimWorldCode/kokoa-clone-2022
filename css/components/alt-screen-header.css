@@ -1,12 +1,12 @@
 .alt-screen-header {
   display: flex;
   justify-content: center;
-  padding: 0px 3px;
-  margin: 10px 25px;
+  padding: 10px 3px;
+  margin: 7px 0;
 }
 
 .alt-screen-header__column {
-  width: 33%;
+  width: 30%;
 }
 .alt-screen-header__column:first-child {
   display: flex;
@@ -31,6 +31,6 @@
   font-size: 20px;
 }
 
-.alt-screen-header__column__bar_icon {
-  margin-left: 10px;
+.alt-screen-header__column span:last-child {
+  margin-left: 15px;
 }

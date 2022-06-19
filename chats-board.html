@@ -35,18 +35,69 @@
          <h1 class="alt-screen-header__title">Kaisa</h1>
       </div>
       <div class="alt-screen-header__column">
-          <span>
+          <span class="alt-screen-header__column__icons">
             <i class="fa-solid fa-magnifying-glass fa-lg"></i>
         </span>
-        <span class="alt-screen-header__column__bar_icon">
+        <span class="alt-screen-header__column__icons">
             <i class="fa-solid fa-align-justify fa-lg"></i>
          </span>
         </div>
       </div>
     </header>
-    <main class="main-screen">
-
+    <main class="main-screen main-chat-board">
+        <div class="chat__timestamp">
+           <span>Tuesday, June 30, 2020</span>
+        </div>
+      <div class="message-row">
+        <img src="css/img/kaisa.jpg"/>
+        <div class="maeeage-row__content">
+          <span class="message-row__author">Kaisa</span>
+          <div class="message-row__info">
+            <span class="message__bubble">Hi</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="maeeage-row__content">
+          <div class="message-row__info">
+            <span class="message__bubble">Hi</span>
+            <span class="message__time">21:28</span>
+          </div>
+        </div>
+      </div>
+            <div class="message-row">
+        <img src="css/img/kaisa.jpg"/>
+        <div class="maeeage-row__content">
+          <span class="message-row__author">Kaisa</span>
+          <div class="message-row__info">
+            <span class="message__bubble">Shall we go to main street?</span>
+            <span class="message__time">21:30</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="maeeage-row__content">
+          <div class="message-row__info">
+            <span class="message__bubble">Ok i agree</span>
+            <span class="message__time">21:31</span>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-square-plus fa-lg"></i>
+      </div>
+       <div class="reply__column">
+         <input type="text" placeholder="write a message"/>
+           <i class="fa-solid fa-face-smile fa-lg"></i>
+          <button>
+           <i class="fa-solid fa-paper-plane"></i>
+          </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/1cf6a227d5.js"
